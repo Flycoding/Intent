@@ -19,7 +19,9 @@ public class MainActivity extends Activity {
 		Intent intent = new Intent();
 		intent.setAction("com.flyingh.action.App");
 		intent.addCategory("com.flyingh.category.DEFAULT");
-		intent.setData(Uri.parse("https://www.flyingh.com/abc.jsp"));
+		// intent.setData(Uri.parse("https://www.flyingh.com/abc.jsp"));
+		// intent.setType("image/png");
+		intent.setDataAndType(Uri.parse("https://www.flyingh.com/abc.jsp"), "image/png");
 		startActivity(intent);
 	}
 
