@@ -38,7 +38,7 @@
 
                 <data
                     android:host="www.flyingh.com"
-                    android:scheme="https" />
+                    android:scheme="https" android:path="/abc.jsp"/>
             </intent-filter>
         </activity>
     </application>
