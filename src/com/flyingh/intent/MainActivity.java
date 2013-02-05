@@ -2,6 +2,7 @@ package com.flyingh.intent;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -18,6 +19,7 @@ public class MainActivity extends Activity {
 		Intent intent = new Intent();
 		intent.setAction("com.flyingh.action.App");
 		intent.addCategory("com.flyingh.category.DEFAULT");
+		intent.setData(Uri.parse("https://www.flyingh.com/abc.jsp"));
 		startActivity(intent);
 	}
 

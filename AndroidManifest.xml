@@ -35,6 +35,10 @@
                 <category android:name="com.flyingh.category.DEFAULT" />
                 <category android:name="com.flyingh.category.TEST" />
                 <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="www.flyingh.com"
+                    android:scheme="https" />
             </intent-filter>
         </activity>
     </application>
