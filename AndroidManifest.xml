@@ -29,8 +29,11 @@
             tools:ignore="ExportedActivity" >
             <intent-filter>
                 <action android:name="com.flyingh.action.App" />
+                <action android:name="com.flyingh.action.AppA" />
+                <action android:name="com.flyingh.action.AppB" />
 
                 <category android:name="com.flyingh.category.DEFAULT" />
+                <category android:name="com.flyingh.category.TEST" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
